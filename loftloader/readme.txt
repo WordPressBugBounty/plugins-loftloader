@@ -1,6 +1,6 @@
 === LoftLoader ===
 Contributors: loftocean
-Tags: page preloader, preloader with custom logo, animated preloader, CSS3 preloader, customize
+Tags: preloader, page preloader, animated preloader, CSS3 preloader, customizable loader,
 Donate link:
 Requires at least: 5.0
 Tested up to: 6.6
