@@ -3,9 +3,9 @@ Contributors: loftocean
 Tags: loader, load, preloader, page preloader, prelader spinner, preloader with custom logo, animated preloader, CSS3 preloader, customize
 Donate link:
 Requires at least: 5.0
-Tested up to: 6.1
+Tested up to: 6.6
 Requires PHP: 5.6
-Stable tag: 2.4.0
+Stable tag: 2.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -97,6 +97,10 @@ Check some [examples](http://www.loftocean.com/loftloader/example-13/) created b
 8. Pro version: Load Time, Device Control & Smooth Page Transition
 
 == Changelog ==
+= 2.5.0 =
+* Improved: Settings panel style refined
+* Improved: Compatibility with WordPress 6.6
+
 = 2.4.0 =
 * New: New ending animation - "No Animation"
 * Fixed: Compatibility with third party plugin "Disable Blog"
