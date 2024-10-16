@@ -1,6 +1,6 @@
 === LoftLoader ===
 Contributors: loftocean
-Tags: loader, load, preloader, page preloader, prelader spinner, preloader with custom logo, animated preloader, CSS3 preloader, customize
+Tags: page preloader, preloader with custom logo, animated preloader, CSS3 preloader, customize
 Donate link:
 Requires at least: 5.0
 Tested up to: 6.6
@@ -19,7 +19,8 @@ Small and powerful. LoftLoader helps you to add a beautiful animated preloader t
 
 = Features & Options =
 * Enhanced settings panel with WordPress Customizer.
-* Pure CSS3 animation. Works in any modern browser.
+* Pure CSS3 animations for better performance. Works in any modern browser. 
+* Use JavaScript to detect if the page is fully loaded.
 * 5 ending animation effects.
 * 7 loading animation effects. 2 of them support custom image.
 * Unlimited background color. Also can change the opacity.
