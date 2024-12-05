@@ -174,7 +174,7 @@ if ( ! class_exists( 'LoftLoader_Front' ) ) {
 		* Loader HTML
 		*/
 		public function loader_html( $loader ) {
-			if ( $this->$html_loaded ) {
+			if ( $this->html_loaded ) {
 				return '';
 			}
  			$image  = esc_url($this->get_loader_setting('loftloader_custom_img'));
