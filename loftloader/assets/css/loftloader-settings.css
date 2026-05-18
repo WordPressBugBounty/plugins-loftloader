@@ -76,18 +76,22 @@
     font-size: 0; }
     .rtl #customize-theme-controls.loftloader-controls-wrapper input[type="checkbox"] {
       float: left; }
-    #customize-theme-controls.loftloader-controls-wrapper input[type="checkbox"]:checked:before {
+    #customize-theme-controls.loftloader-controls-wrapper input[type="checkbox"]:checked:before, #customize-theme-controls.loftloader-controls-wrapper input[type="checkbox"]:checked:after {
       position: absolute;
       top: 50%;
       left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      margin: 0 0 0 -1px;
-      width: 21px;
-      height: 21px;
-      color: #41C7D3;
-      font: 21px dashicons; }
+      display: block;
+      height: 2px;
+      background: #41C7D3;
+      content: ""; }
+    #customize-theme-controls.loftloader-controls-wrapper input[type="checkbox"]:checked:before {
+      transform: translate(-50%, -50%) rotate(45deg);
+      margin: 2px 0 0 -4px;
+      width: 5px; }
+    #customize-theme-controls.loftloader-controls-wrapper input[type="checkbox"]:checked:after {
+      transform: translate(-50%, -50%) rotate(135deg);
+      margin: 1px 0 0 2px;
+      width: 12px; }
     #customize-theme-controls.loftloader-controls-wrapper input[type="checkbox"]:hover {
       opacity: 0.75; }
   #customize-theme-controls.loftloader-controls-wrapper .loftloader-radiobtn {

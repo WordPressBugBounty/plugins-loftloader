@@ -3,9 +3,9 @@ Contributors: loftocean
 Tags: preloader, page preloader, animated preloader, CSS3 preloader, customizable loader,
 Donate link:
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 2.5.2
+Stable tag: 2.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,6 +98,9 @@ Check some [examples](http://www.loftocean.com/loftloader/example-13/) created b
 8. Pro version: Load Time, Device Control & Smooth Page Transition
 
 == Changelog ==
+= 2.5.3 =
+* Fixed: Minor compatibility error in PHP 8.4 and later
+
 = 2.5.2 =
 * Improved: Compatibility with WordPress 6.9
 
